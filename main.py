@@ -1,9 +1,10 @@
 # main.py
 import os
+import pandas as pd
 import numpy as np
 import pandas as pd
 from src.data_processing import MarketingDataPipeline
-from src.causal_models import CausalUpliftEngine
+from src.causal_models import CausalUpliftEngine 
 
 def run_pipeline():
     # Define production directories
